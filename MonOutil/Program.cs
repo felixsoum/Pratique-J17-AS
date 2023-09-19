@@ -2,12 +2,12 @@
 
 using MonOutil;
 
-Console.Write("Bonjour, quel est votre nom?");
+Console.Write("Hello, what is your name?");
 
 string? username;
 username = Console.ReadLine();
 
 // Code qui accueille l'utilisateur par son nom
-Console.WriteLine($"Bienvenue {username} à MonOutil.");
+Console.WriteLine($"Nice to meet you {username}, welcome to MonOutil.");
 
 new Meteo();

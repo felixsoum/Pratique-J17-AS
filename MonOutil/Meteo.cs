@@ -14,12 +14,12 @@ namespace MonOutil
             double tempEnFahrenheit;
             string? line;
 
-            Console.WriteLine("Bienvenue à l'outil Météo.");
-            Console.WriteLine("\n\nEntrez la température en Celcius:\n\n");
+            Console.WriteLine("Welcome to the Meteo tool.");
+            Console.WriteLine("\n\nPlease enter the temperature in Celsius:\n\n");
             line = Console.ReadLine();
             tempEnCelsius = Convert.ToDouble(line);
             tempEnFahrenheit = (tempEnCelsius * 9 / 5) + 32;
-            Console.WriteLine($"La température en Fahrenheit: {tempEnFahrenheit} ");
+            Console.WriteLine($"The temperature in Fahrenheit: {tempEnFahrenheit} ");
         }
     }
 }
